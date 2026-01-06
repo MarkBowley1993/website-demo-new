@@ -1,34 +1,47 @@
-.App-logo {
-    height: 40vmin;
-    pointer-events: none;
+* {
+    scroll-behavior: smooth;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-        animation: App-logo-spin infinite 20s linear;
-    }
-}
-
-.App-header {
-    background-color: #0f0f10;
+.App {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
+}
+
+main {
+    flex: 1;
+}
+
+/* Smooth transitions for interactive elements */
+a, button {
+    transition: color 0.2s ease, background-color 0.2s ease, transform 0.1s ease;
+}
+
+a:hover, button:hover {
+    transform: translateY(-1px);
+}
+
+/* Image hover effects */
+img {
+    transition: transform 0.3s ease;
+}
+
+/* Card hover effects */
+.hover\:shadow-lg:hover,
+.hover\:shadow-xl:hover {
+    transition: box-shadow 0.3s ease;
+}
+
+/* Focus styles for accessibility */
+input:focus,
+textarea:focus,
+select:focus {
+    outline: 2px solid #2563eb;
+    outline-offset: 2px;
+}
+
+/* Ensure good contrast */
+::selection {
+    background-color: #3b82f6;
     color: white;
-}
-
-.App-link {
-    color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
 }
