@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, Phone, Mail } from 'lucide-react';
 import * as LucideIcons from 'lucide-react';
 import { Card, CardContent } from '../components/ui/card';
 import { Button } from '../components/ui/button';
-import { services } from '../data/mock';
+import { services, businessInfo } from '../data/mock';
 
 const Services = () => {
   return (

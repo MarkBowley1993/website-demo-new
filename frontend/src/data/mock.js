@@ -14,7 +14,7 @@ export const services = [
     title: "MF Ceilings",
     shortDescription: "MF ceiling systems for homes, offices and commercial spaces. Ideal for hiding services, improving acoustics and creating modern level ceilings, bulkheads and lighting features.",
     icon: "Layers",
-    image: "https://images.unsplash.com/photo-1762687615302-ccd6dad7be05?crop=entropy&cs=srgb&fm=jpg&q=85"
+    image: "https://customer-assets.emergentagent.com/job_88d0e87c-203a-489e-a732-0f3b5ef378f7/artifacts/3p8tbsf5_59756376_658453977938023_3979713677111590912_n.jpg"
   },
   {
     id: "dry-lining",
@@ -28,7 +28,7 @@ export const services = [
     title: "Spray Plastering",
     shortDescription: "Airless spray plastering for fast, consistent finishes on large areas. Reduces drying times and provides a high quality surface that is ready for decorating.",
     icon: "Sparkles",
-    image: "https://images.unsplash.com/photo-1636029697866-214ee5315764?crop=entropy&cs=srgb&fm=jpg&q=85"
+    image: "https://customer-assets.emergentagent.com/job_88d0e87c-203a-489e-a732-0f3b5ef378f7/artifacts/va81nwcv_70498396_739618843154869_2044506038937321472_n.jpg"
   },
   {
     id: "painting-decorating",
