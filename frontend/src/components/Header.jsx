@@ -41,13 +41,19 @@ const Header = () => {
 
       {/* Main navigation */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center py-1">
-          <Link to="/" className="flex items-center">
+        <div className="flex justify-between items-center" style={{ minHeight: '80px' }}>
+          <Link to="/" className="flex items-center -my-4">
             <img 
               src="https://customer-assets.emergentagent.com/job_88d0e87c-203a-489e-a732-0f3b5ef378f7/artifacts/xsgun7uy_2025-03-08-removebg-preview.png" 
               alt="Dorset Spray Plastering & Painting"
               className="w-64 h-auto"
-              style={{ objectFit: 'contain', maxWidth: '250px', maxHeight: '250px' }}
+              style={{ 
+                objectFit: 'contain', 
+                maxWidth: '250px', 
+                maxHeight: '250px',
+                transform: 'scale(1.3)',
+                margin: '-30px 0'
+              }}
             />
           </Link>
 
