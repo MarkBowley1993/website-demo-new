@@ -26,7 +26,7 @@ const Header = () => {
   return (
     <header className="bg-white shadow-sm sticky top-0 z-50">
       {/* Top bar with contact info */}
-      <div className="bg-slate-800 text-white">
+      <div className="bg-[#3a4450] text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2">
           <div className="flex flex-wrap justify-between items-center text-sm">
             <div className="flex items-center gap-6">
