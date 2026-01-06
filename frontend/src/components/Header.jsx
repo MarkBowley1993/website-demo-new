@@ -30,11 +30,7 @@ const Header = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-1">
           <div className="flex flex-wrap justify-between items-center text-sm">
             <div className="flex items-center gap-6">
-              <a href={`tel:${businessInfo.phone}`} className="flex items-center gap-2 hover:text-blue-300 transition-colors">
-                <Phone size={16} />
-                <span>{businessInfo.phone}</span>
-              </a>
-              <a href={`mailto:${businessInfo.email}`} className="hidden sm:flex items-center gap-2 hover:text-blue-300 transition-colors">
+              <a href={`mailto:${businessInfo.email}`} className="flex items-center gap-2 hover:text-blue-300 transition-colors">
                 <Mail size={16} />
                 <span>{businessInfo.email}</span>
               </a>
@@ -50,8 +46,8 @@ const Header = () => {
             <img 
               src="https://customer-assets.emergentagent.com/job_88d0e87c-203a-489e-a732-0f3b5ef378f7/artifacts/xsgun7uy_2025-03-08-removebg-preview.png" 
               alt="Dorset Spray Plastering & Painting"
-              className="h-32 w-auto"
-              style={{ objectFit: 'contain' }}
+              className="w-64 h-auto"
+              style={{ objectFit: 'contain', maxWidth: '250px', maxHeight: '250px' }}
             />
           </Link>
 
