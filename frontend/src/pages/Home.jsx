@@ -21,7 +21,7 @@ const Home = () => {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 sm:py-32">
           <div className="max-w-3xl">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              Spray Plastering, MF Ceilings & Painting Contractors in Dorset
+              Professional Spray Plastering, MF Ceilings & Painting Contractors in Dorset
             </h1>
             <p className="text-xl sm:text-2xl text-slate-200 mb-8">
               Professional internal finishes for homes, landlords and commercial projects, backed by {businessInfo.experience} of experience.
