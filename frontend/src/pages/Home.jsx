@@ -13,7 +13,7 @@ const Home = () => {
       <section className="relative bg-slate-900 text-white">
         <div className="absolute inset-0 overflow-hidden">
           <img
-            src="https://images.unsplash.com/photo-1678652231878-f711482064c2?crop=entropy&cs=srgb&fm=jpg&q=85"
+            src="https://customer-assets.emergentagent.com/job_88d0e87c-203a-489e-a732-0f3b5ef378f7/artifacts/2jduwmot_image.png"
             alt="Professional plastering work"
             className="w-full h-full object-cover opacity-30"
           />
