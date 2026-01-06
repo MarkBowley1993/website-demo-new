@@ -1,11 +1,15 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '../components/ui/button';
-import { Card, CardContent } from '../components/ui/card';
-import { galleryImages } from '../data/mock';
+import { Card } from '../components/ui/card';
+import { Phone, Mail } from 'lucide-react';
+import { businessInfo } from '../data/mock';
 
 const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState(null);
+  
+  // Create 6 placeholder items
+  const placeholderItems = Array.from({ length: 6 }, (_, i) => ({ id: i + 1 }));
 
   return (
     <div>
@@ -27,54 +31,19 @@ const Gallery = () => {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {galleryImages.map((image) => (
+            {placeholderItems.map((item) => (
               <Card
-                key={image.id}
-                className="overflow-hidden cursor-pointer hover:shadow-xl transition-shadow"
-                onClick={() => setSelectedImage(image)}
+                key={item.id}
+                className="overflow-hidden hover:shadow-xl transition-shadow"
               >
-                <div className="aspect-video overflow-hidden">
-                  <img
-                    src={image.url}
-                    alt={image.caption}
-                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
-                  />
+                <div className="aspect-video bg-slate-200 flex items-center justify-center">
+                  <span className="text-slate-400 text-lg font-medium">Placeholder</span>
                 </div>
-                <CardContent className="p-4">
-                  <p className="text-slate-700 font-medium">{image.caption}</p>
-                </CardContent>
               </Card>
             ))}
           </div>
         </div>
       </section>
-
-      {/* Image Lightbox */}
-      {selectedImage && (
-        <div
-          className="fixed inset-0 bg-black bg-opacity-90 z-50 flex items-center justify-center p-4"
-          onClick={() => setSelectedImage(null)}
-        >
-          <div className="max-w-5xl w-full">
-            <div className="relative">
-              <button
-                className="absolute -top-12 right-0 text-white text-4xl hover:text-slate-300"
-                onClick={() => setSelectedImage(null)}
-              >
-                ×
-              </button>
-              <img
-                src={selectedImage.url}
-                alt={selectedImage.caption}
-                className="w-full rounded-lg"
-              />
-              <div className="text-white text-center mt-4 text-lg">
-                {selectedImage.caption}
-              </div>
-            </div>
-          </div>
-        </div>
-      )}
 
       {/* Project Types */}
       <section className="py-16 bg-slate-50">
