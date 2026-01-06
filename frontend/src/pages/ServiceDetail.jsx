@@ -162,10 +162,10 @@ const ServiceDetail = () => {
       <section className="py-16 bg-[#3a4450] text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl font-bold mb-6">
-            Get a Quote for {service.title}
+            Ready To Discuss Your Project?
           </h2>
           <p className="text-xl text-slate-300 mb-8">
-            Contact us today for professional advice and a free, no obligation quote.
+            For a free, no obligation quote on MF ceilings, dry lining, spray plastering or decorating, get in touch today.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button asChild size="lg" variant="secondary" className="text-lg px-8">

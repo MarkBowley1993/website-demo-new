@@ -112,14 +112,26 @@ const Gallery = () => {
       <section className="py-16 bg-blue-600 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl font-bold mb-6">
-            Want Results Like These?
+            Ready To Discuss Your Project?
           </h2>
           <p className="text-xl text-blue-100 mb-8">
-            Get in touch to discuss your project and see how we can help.
+            For a free, no obligation quote on MF ceilings, dry lining, spray plastering or decorating, get in touch today.
           </p>
-          <Button asChild size="lg" variant="secondary" className="text-lg px-8">
-            <Link to="/contact">Request a Quote</Link>
-          </Button>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <Button asChild size="lg" variant="secondary" className="text-lg px-8">
+              <Link to="/contact">Request a Quote</Link>
+            </Button>
+            <div className="flex flex-col gap-2">
+              <a href={`tel:${businessInfo.phone}`} className="flex items-center gap-2 text-lg font-semibold hover:text-blue-200 transition-colors">
+                <Phone size={20} />
+                {businessInfo.phone}
+              </a>
+              <a href={`mailto:${businessInfo.email}`} className="flex items-center gap-2 hover:text-blue-200 transition-colors">
+                <Mail size={18} />
+                {businessInfo.email}
+              </a>
+            </div>
+          </div>
         </div>
       </section>
     </div>

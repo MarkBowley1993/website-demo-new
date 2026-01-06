@@ -39,9 +39,6 @@ const Header = () => {
                 <span>{businessInfo.email}</span>
               </a>
             </div>
-            <div className="text-slate-300">
-              {businessInfo.experience} of Experience
-            </div>
           </div>
         </div>
       </div>
