@@ -149,12 +149,9 @@ const ServiceDetail = () => {
           {/* Process Overview */}
           <div className="bg-blue-50 rounded-lg p-8">
             <h2 className="text-3xl font-bold text-slate-900 mb-4">Our Process</h2>
-            <p className="text-lg text-slate-600 mb-6">
+            <p className="text-lg text-slate-600">
               Every project follows our proven process: initial consultation, detailed quote, careful planning, expert execution, and thorough quality checks before handover.
             </p>
-            <Button asChild variant="outline">
-              <Link to="/process">View Our Full Process</Link>
-            </Button>
           </div>
         </div>
       </section>
