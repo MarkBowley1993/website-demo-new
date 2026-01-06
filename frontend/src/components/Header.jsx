@@ -45,12 +45,12 @@ const Header = () => {
 
       {/* Main navigation */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+        <div className="flex justify-between items-center h-24">
           <Link to="/" className="flex items-center">
             <img 
               src="https://customer-assets.emergentagent.com/job_88d0e87c-203a-489e-a732-0f3b5ef378f7/artifacts/84a5od4z_2025-03-08.webp" 
               alt="Dorset Spray Plastering & Painting"
-              className="h-12 w-auto"
+              className="h-20 w-auto"
               style={{ objectFit: 'contain' }}
             />
           </Link>
