@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <div>
       {/* Hero Section */}
-      <section className="relative bg-slate-900 text-white">
+      <section className="relative bg-[#3a4450] text-white">
         <div className="absolute inset-0 overflow-hidden">
           <img
             src="https://customer-assets.emergentagent.com/job_88d0e87c-203a-489e-a732-0f3b5ef378f7/artifacts/2jduwmot_image.png"

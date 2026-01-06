@@ -8,7 +8,7 @@ const About = () => {
   return (
     <div>
       {/* Hero Section */}
-      <section className="bg-slate-900 text-white py-20">
+      <section className="bg-[#3a4450] text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
             <h1 className="text-4xl sm:text-5xl font-bold mb-6">
@@ -122,7 +122,7 @@ const About = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-slate-900 text-white">
+      <section className="py-16 bg-[#3a4450] text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl font-bold mb-6">
             Need an Experienced Contractor?
