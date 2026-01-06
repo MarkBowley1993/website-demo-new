@@ -26,11 +26,17 @@ const About = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
             <div>
-              <img
-                src="https://images.unsplash.com/photo-1559527530-dedb553c65c7?crop=entropy&cs=srgb&fm=jpg&q=85"
-                alt="Professional plastering work"
+              <video
+                autoPlay
+                loop
+                muted
+                playsInline
                 className="rounded-lg shadow-lg w-full"
-              />
+                style={{ maxHeight: '500px', objectFit: 'cover' }}
+              >
+                <source src="https://customer-assets.emergentagent.com/job_88d0e87c-203a-489e-a732-0f3b5ef378f7/artifacts/zotfb6ae_AQN_UidcIPGk9F0FKfjKfRqUp8LAYgCgWGJOtCjNOt9zhh09E1oJwRhfPwFG9JB7QFbKJbBMyJq-TCV4F_PN4_M.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
             </div>
             <div>
               <h2 className="text-3xl font-bold text-slate-900 mb-6">Who We Are</h2>
