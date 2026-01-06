@@ -98,6 +98,7 @@ const Home = () => {
                       src={service.image}
                       alt={service.title}
                       className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                      style={{ objectPosition: 'center' }}
                     />
                   </div>
                   <CardContent className="p-6">

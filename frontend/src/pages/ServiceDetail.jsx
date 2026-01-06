@@ -105,7 +105,8 @@ const ServiceDetail = () => {
               <img
                 src={service.image}
                 alt={service.title}
-                className="rounded-lg shadow-lg w-full"
+                className="rounded-lg shadow-lg w-full object-cover"
+                style={{ height: '400px', objectPosition: 'center' }}
               />
             </div>
             <div>
