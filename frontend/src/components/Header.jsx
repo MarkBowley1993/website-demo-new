@@ -27,7 +27,7 @@ const Header = () => {
     <header className="bg-white shadow-sm sticky top-0 z-50">
       {/* Top bar with contact info */}
       <div className="bg-[#3a4450] text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-1">
           <div className="flex flex-wrap justify-between items-center text-sm">
             <div className="flex items-center gap-6">
               <a href={`tel:${businessInfo.phone}`} className="flex items-center gap-2 hover:text-blue-300 transition-colors">
@@ -45,12 +45,12 @@ const Header = () => {
 
       {/* Main navigation */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center py-3">
-          <Link to="/" className="flex items-center py-2">
+        <div className="flex justify-between items-center py-2">
+          <Link to="/" className="flex items-center py-1">
             <img 
-              src="https://customer-assets.emergentagent.com/job_88d0e87c-203a-489e-a732-0f3b5ef378f7/artifacts/84a5od4z_2025-03-08.webp" 
+              src="https://customer-assets.emergentagent.com/job_88d0e87c-203a-489e-a732-0f3b5ef378f7/artifacts/xsgun7uy_2025-03-08-removebg-preview.png" 
               alt="Dorset Spray Plastering & Painting"
-              className="h-28 w-auto"
+              className="h-32 w-auto"
               style={{ objectFit: 'contain' }}
             />
           </Link>
