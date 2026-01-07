@@ -99,33 +99,43 @@ export const galleryImages = [
 export const faqs = [
   {
     id: 1,
-    question: "Do you offer free quotes?",
-    answer: "Yes, we provide free, no obligation quotes. Where needed we will visit site to assess the work before pricing."
+    question: "Do you offer free quotes for plastering in Poole?",
+    answer: "Yes, we provide free, no obligation quotes for all plastering, spray plastering, MF ceilings and painting services in Poole, Bournemouth and across Dorset. Where needed we will visit your site to assess the work before providing a detailed written quote."
   },
   {
     id: 2,
-    question: "What areas do you cover?",
-    answer: "We work across Dorset and surrounding areas. For larger projects we may travel further by arrangement."
+    question: "What areas do you cover as plasterers in Dorset?",
+    answer: "We provide professional plastering services throughout Dorset including Poole, Bournemouth, Christchurch, Wimborne, Wareham, Ferndown, Dorchester, Swanage, and Blandford. For larger projects we may travel further by arrangement."
   },
   {
     id: 3,
     question: "Can you work around other trades on site?",
-    answer: "Yes. We regularly work alongside builders, electricians and plumbers and will coordinate timings to keep your project moving."
+    answer: "Yes. As experienced plastering contractors we regularly work alongside builders, electricians and plumbers on construction sites across Poole and Dorset. We will coordinate timings to keep your project moving smoothly."
   },
   {
     id: 4,
-    question: "Do you supply materials?",
-    answer: "We normally supply all materials required for the MF ceilings, dry lining, plastering and painting, unless agreed otherwise."
+    question: "Do you supply materials for plastering work?",
+    answer: "Yes, we normally supply all materials required for MF ceilings, dry lining, plastering and painting work, unless agreed otherwise. This ensures consistent quality across all our projects."
   },
   {
     id: 5,
-    question: "Are you insured?",
-    answer: "Yes, we hold suitable insurance for the work we carry out. Proof of cover can be provided on request."
+    question: "Are you insured plasterers?",
+    answer: "Yes, we hold appropriate insurance for all the plastering, spray plastering, MF ceiling and painting work we carry out across Poole, Bournemouth and Dorset. Proof of cover can be provided on request."
   },
   {
     id: 6,
-    question: "How long does a typical project take?",
-    answer: "Project timelines vary depending on size and scope. We will provide clear timescales in your quote and keep you updated throughout."
+    question: "How long does a typical plastering project take?",
+    answer: "Project timelines vary depending on size and scope. Small rooms may take 1-2 days, while larger commercial plastering projects in Poole or new build properties can take several weeks. We will provide clear timescales in your quote and keep you updated throughout."
+  },
+  {
+    id: 7,
+    question: "What is spray plastering and is it better than traditional plastering?",
+    answer: "Spray plastering (machine plastering) uses specialized equipment to apply plaster quickly and consistently across large areas. It's faster than hand plastering, provides a uniform finish, and is ideal for new builds and commercial projects in Poole and Dorset. Our spray plasterers can advise which method is best for your project."
+  },
+  {
+    id: 8,
+    question: "Do you install MF ceilings in commercial buildings?",
+    answer: "Yes, we are experienced MF ceiling contractors specializing in commercial suspended ceiling systems for offices, retail spaces, and hospitality venues across Poole, Bournemouth and Dorset. We can integrate lighting, provide acoustic solutions, and ensure fire safety compliance."
   }
 ];
 
