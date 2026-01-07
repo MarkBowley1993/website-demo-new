@@ -45,3 +45,8 @@ select:focus {
     background-color: #3b82f6;
     color: white;
 }
+
+/* Hide Emergent badge */
+#emergent-badge {
+    display: none !important;
+}
