@@ -49,20 +49,20 @@ const FAQs = () => {
       </section>
 
       {/* Additional Info */}
-      <section className="py-16 bg-slate-50">
+      <section className="py-16 bg-blue-600 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl font-bold text-slate-900 mb-6">
+            <h2 className="text-3xl font-bold mb-6">
               Still Have Questions?
             </h2>
-            <p className="text-lg text-slate-600 mb-8">
+            <p className="text-xl text-blue-100 mb-8">
               If you can't find the answer you're looking for, please get in touch. We're happy to discuss your specific requirements and provide detailed advice on the best approach for your project.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button asChild size="lg">
+              <Button asChild size="lg" variant="secondary">
                 <Link to="/contact">Contact Us</Link>
               </Button>
-              <Button asChild size="lg" variant="outline">
+              <Button asChild size="lg" variant="outline" className="bg-transparent border-white text-white hover:bg-white hover:text-blue-600">
                 <Link to="/services">View Our Services</Link>
               </Button>
             </div>
