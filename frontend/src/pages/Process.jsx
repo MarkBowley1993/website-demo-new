@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { CheckCircle2 } from 'lucide-react';
+import { CheckCircle2, Phone, Mail } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import { Card, CardContent } from '../components/ui/card';
-import { processSteps } from '../data/mock';
+import { processSteps, businessInfo } from '../data/mock';
 
 const Process = () => {
   return (
@@ -229,7 +229,7 @@ const Process = () => {
             <div className="flex flex-col gap-2">
               <a href={`tel:${businessInfo.phone}`} className="flex items-center gap-2 text-lg font-semibold hover:text-blue-200 transition-colors">
                 <Phone size={20} />
-                {businessInfo.phone}
+                <div>{businessInfo.contactName}: {businessInfo.phone}</div>
               </a>
               <a href={`mailto:${businessInfo.email}`} className="flex items-center gap-2 hover:text-blue-200 transition-colors">
                 <Mail size={18} />
