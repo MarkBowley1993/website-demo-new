@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '../components/ui/button';
 import { Card } from '../components/ui/card';
-import { Phone, Mail, ExternalLink } from 'lucide-react';
+import { Phone, Mail, ExternalLink, Instagram } from 'lucide-react';
 import { businessInfo, galleryImages } from '../data/mock';
 
 const Gallery = () => {
@@ -27,7 +27,7 @@ const Gallery = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8">
             <p className="text-lg text-slate-600">
-              Follow us on <a href={businessInfo.social.instagram} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700 font-semibold underline">Instagram @dorset_spray_plastering</a> for more photos and updates
+              Follow us on <a href={businessInfo.social?.instagram || "https://www.instagram.com/dorset_spray_plastering/"} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700 font-semibold underline">Instagram @dorset_spray_plastering</a> for more photos and updates
             </p>
           </div>
           
@@ -41,17 +41,14 @@ const Gallery = () => {
                   href={image.instagramUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="block aspect-square overflow-hidden relative group"
+                  className="block aspect-square bg-gradient-to-br from-purple-600 via-pink-600 to-orange-500 relative group overflow-hidden"
                 >
-                  <iframe
-                    src={image.embedUrl}
-                    className="w-full h-full border-0"
-                    scrolling="no"
-                    title={image.caption}
-                  />
-                  <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-10 transition-opacity flex items-center justify-center pointer-events-none">
-                    <ExternalLink className="text-white opacity-0 group-hover:opacity-100 transition-opacity" size={32} />
+                  <div className="absolute inset-0 flex flex-col items-center justify-center p-6 text-white text-center">
+                    <Instagram size={48} className="mb-4 group-hover:scale-110 transition-transform" />
+                    <p className="font-semibold text-lg mb-2">{image.caption}</p>
+                    <ExternalLink size={24} className="opacity-75 group-hover:opacity-100 transition-opacity" />
                   </div>
+                  <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-10 transition-opacity" />
                 </a>
               </Card>
             ))}

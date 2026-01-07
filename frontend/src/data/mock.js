@@ -73,45 +73,33 @@ export const testimonials = [
 export const galleryImages = [
   {
     id: 1,
-    embedUrl: "https://www.instagram.com/p/DPmR0fFjIQ4/embed",
     instagramUrl: "https://www.instagram.com/p/DPmR0fFjIQ4/",
     caption: "Professional plastering project in Poole"
   },
   {
     id: 2,
-    embedUrl: "https://www.instagram.com/p/C0ZvRygIBYa/embed",
     instagramUrl: "https://www.instagram.com/p/C0ZvRygIBYa/",
     caption: "MF ceiling installation in Dorset"
   },
   {
     id: 3,
-    embedUrl: "https://www.instagram.com/p/CnSjEoRoemA/embed",
     instagramUrl: "https://www.instagram.com/p/CnSjEoRoemA/",
     caption: "Spray plastering work in Bournemouth"
   },
   {
     id: 4,
-    embedUrl: "https://www.instagram.com/p/CXRijcqIYu6/embed",
     instagramUrl: "https://www.instagram.com/p/CXRijcqIYu6/",
     caption: "Quality finishing work"
   },
   {
     id: 5,
-    embedUrl: "https://www.instagram.com/p/CAnFpA7Bn0G/embed",
     instagramUrl: "https://www.instagram.com/p/CAnFpA7Bn0G/",
     caption: "Commercial project in Poole"
   },
   {
     id: 6,
-    embedUrl: "https://www.instagram.com/p/B2brfcjBoYg/embed",
     instagramUrl: "https://www.instagram.com/p/B2brfcjBoYg/",
     caption: "Completed ceiling work in Dorset"
-  },
-  {
-    id: 7,
-    embedUrl: "https://www.instagram.com/p/B09OT-8n-Wd/embed",
-    instagramUrl: "https://www.instagram.com/p/B09OT-8n-Wd/",
-    caption: "Professional plastering"
   }
 ];
 
