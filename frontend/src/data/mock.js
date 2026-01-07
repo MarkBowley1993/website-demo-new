@@ -73,33 +73,45 @@ export const testimonials = [
 export const galleryImages = [
   {
     id: 1,
-    url: "https://images.unsplash.com/photo-1559527530-dedb553c65c7?crop=entropy&cs=srgb&fm=jpg&q=85",
-    caption: "Professional plastering work"
+    url: "https://www.instagram.com/p/DPmR0fFjIQ4/media/?size=l",
+    instagramUrl: "https://www.instagram.com/p/DPmR0fFjIQ4/",
+    caption: "Professional plastering project"
   },
   {
     id: 2,
-    url: "https://images.unsplash.com/photo-1543525324-59e153f55a66?crop=entropy&cs=srgb&fm=jpg&q=85",
-    caption: "Clean smooth wall finish"
+    url: "https://www.instagram.com/p/C0ZvRygIBYa/media/?size=l",
+    instagramUrl: "https://www.instagram.com/p/C0ZvRygIBYa/",
+    caption: "MF ceiling installation"
   },
   {
     id: 3,
-    url: "https://images.unsplash.com/photo-1645448118559-2dc2d8b9ba1f?crop=entropy&cs=srgb&fm=jpg&q=85",
-    caption: "Skilled plastering application"
+    url: "https://www.instagram.com/p/CnSjEoRoemA/media/?size=l",
+    instagramUrl: "https://www.instagram.com/p/CnSjEoRoemA/",
+    caption: "Spray plastering work"
   },
   {
     id: 4,
-    url: "https://images.unsplash.com/photo-1739700712159-550519327ca7?crop=entropy&cs=srgb&fm=jpg&q=85",
-    caption: "Modern ceiling installation"
+    url: "https://www.instagram.com/p/CXRijcqIYu6/media/?size=l",
+    instagramUrl: "https://www.instagram.com/p/CXRijcqIYu6/",
+    caption: "Quality finishing work"
   },
   {
     id: 5,
-    url: "https://images.pexels.com/photos/5691606/pexels-photo-5691606.jpeg",
-    caption: "Professional painting work"
+    url: "https://www.instagram.com/p/CAnFpA7Bn0G/media/?size=l",
+    instagramUrl: "https://www.instagram.com/p/CAnFpA7Bn0G/",
+    caption: "Commercial project"
   },
   {
     id: 6,
-    url: "https://images.pexels.com/photos/5691622/pexels-photo-5691622.jpeg",
-    caption: "Interior wall preparation"
+    url: "https://www.instagram.com/p/B2brfcjBoYg/media/?size=l",
+    instagramUrl: "https://www.instagram.com/p/B2brfcjBoYg/",
+    caption: "Completed ceiling work"
+  },
+  {
+    id: 7,
+    url: "https://www.instagram.com/p/B09OT-8n-Wd/media/?size=l",
+    instagramUrl: "https://www.instagram.com/p/B09OT-8n-Wd/",
+    caption: "Professional plastering"
   }
 ];
 
