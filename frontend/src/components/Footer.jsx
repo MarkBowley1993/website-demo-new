@@ -116,7 +116,7 @@ const Footer = () => {
                   href={businessInfo.social.facebook}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-slate-700 hover:bg-blue-600 p-2 rounded-full transition-colors"
+                  className="bg-slate-700 hover:bg-blue-600 p-2 rounded-full transition-colors w-10 h-10 flex items-center justify-center"
                   aria-label="Facebook"
                 >
                   <Facebook size={20} />
@@ -125,7 +125,7 @@ const Footer = () => {
                   href={`https://wa.me/${businessInfo.social.whatsapp}`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-slate-700 hover:bg-green-600 p-2 rounded-full transition-colors"
+                  className="bg-slate-700 hover:bg-green-600 p-2 rounded-full transition-colors w-10 h-10 flex items-center justify-center"
                   aria-label="WhatsApp"
                 >
                   <MessageCircle size={20} />
@@ -134,7 +134,7 @@ const Footer = () => {
                   href={businessInfo.social.instagram}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-slate-700 hover:bg-pink-600 p-2 rounded-full transition-colors"
+                  className="bg-slate-700 hover:bg-pink-600 p-2 rounded-full transition-colors w-10 h-10 flex items-center justify-center"
                   aria-label="Instagram"
                 >
                   <Instagram size={20} />
@@ -143,10 +143,10 @@ const Footer = () => {
                   href={businessInfo.social.yell}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-slate-700 hover:bg-yellow-600 p-2 rounded-full transition-colors flex items-center justify-center"
+                  className="bg-slate-700 hover:bg-yellow-600 p-2 rounded-full transition-colors w-10 h-10 flex items-center justify-center"
                   aria-label="Yell"
                 >
-                  <span className="text-xs font-bold">Y!</span>
+                  <span className="text-lg font-bold">Y!</span>
                 </a>
               </div>
             </div>
