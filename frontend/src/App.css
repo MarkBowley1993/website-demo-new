@@ -47,6 +47,12 @@ select:focus {
 }
 
 /* Hide Emergent badge */
-#emergent-badge {
+#emergent-badge,
+[id*="emergent"],
+[class*="emergent-badge"],
+a[href*="emergent.sh"] {
     display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
 }
