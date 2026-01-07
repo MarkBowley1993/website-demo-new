@@ -287,7 +287,9 @@ const Home = () => {
             <div className="flex flex-col gap-2">
               <a href={`tel:${businessInfo.phone}`} className="flex items-center gap-2 text-lg font-semibold hover:text-blue-200 transition-colors">
                 <Phone size={20} />
-                {businessInfo.phone}
+                <div>
+                  <div>{businessInfo.contactName}: {businessInfo.phone}</div>
+                </div>
               </a>
               <a href={`mailto:${businessInfo.email}`} className="flex items-center gap-2 hover:text-blue-200 transition-colors">
                 <Mail size={18} />
