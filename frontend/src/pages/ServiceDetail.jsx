@@ -14,19 +14,23 @@ const ServiceDetail = () => {
 
   const serviceDetails = {
     'mf-ceilings': {
-      title: 'MF Ceiling Contractors in Dorset',
-      intro: 'MF ceilings are ideal for creating level, modern ceilings and for concealing services such as pipes, ductwork and cabling. Dorset Spray Plastering & Painting supplies and installs MF ceiling systems for domestic and commercial projects across Dorset.',
+      title: 'MF Ceiling Contractors in Poole & Dorset',
+      intro: 'Professional MF ceiling installers serving Poole, Bournemouth, and across Dorset. MF (metal frame) ceilings are ideal for creating level, modern ceilings and concealing services such as pipes, ductwork and cabling. Dorset Spray Plastering & Painting supply and install MF ceiling systems for domestic and commercial projects throughout Poole, Bournemouth, Christchurch, and Dorset.',
       whatWeProvide: [
-        'Full MF ceiling frameworks',
-        'Bulkheads and feature ceilings',
-        'Integration with lighting layouts',
-        'Boarding, jointing and finishing'
+        'Complete MF ceiling frameworks and suspended ceiling systems',
+        'Bulkheads, feature ceilings, and decorative ceiling designs',
+        'Integration with lighting layouts and recessed lighting',
+        'Professional boarding, jointing and finishing',
+        'Commercial MF ceilings for offices, retail spaces and hospitality venues',
+        'Residential MF ceilings for new builds and renovations'
       ],
       benefits: [
-        'Smooth, level ceilings',
-        'Space to run services',
-        'Good acoustic and fire performance when specified correctly',
-        'Suitable for new builds, refurbishments and office fit outs'
+        'Smooth, level ceilings with professional finish',
+        'Space to run services and building infrastructure',
+        'Excellent acoustic and fire performance when specified correctly',
+        'Suitable for new builds, refurbishments, office fit outs and commercial projects',
+        'Fast installation by experienced MF ceiling contractors',
+        'Fully insured MF ceiling specialists in Poole and Dorset'
       ]
     },
     'dry-lining': {
@@ -46,35 +50,43 @@ const ServiceDetail = () => {
       ]
     },
     'spray-plastering': {
-      title: 'Spray Plastering Contractors in Dorset',
-      intro: 'Spray plastering is a fast, efficient way to achieve a consistent finish on large areas of walls and ceilings. It is ideal for new builds, refurbishments and commercial spaces where speed and quality are both important.',
+      title: 'Spray Plastering Contractors in Poole & Dorset',
+      intro: 'Professional spray plastering services in Poole, Bournemouth and throughout Dorset. Spray plastering (also known as machine plastering) is a fast, efficient method to achieve consistent, high-quality finishes on large areas of walls and ceilings. Our spray plasterers are ideal for new builds, refurbishments and commercial spaces in Poole and Dorset where speed and quality are both essential.',
       whatWeProvide: [
-        'Airless spray application',
-        'Machine mixed plaster for consistent quality',
-        'Hand finishing for clean edges and corners',
-        'Preparation and protection of surfaces and floors'
+        'Airless spray plastering application by qualified spray plasterers',
+        'Machine mixed plaster for consistent quality and finish',
+        'Professional hand finishing for clean edges and corners',
+        'Thorough preparation and protection of surfaces and floors',
+        'Commercial spray plastering for offices, retail and hospitality',
+        'Residential spray plastering for new builds and renovations in Poole & Dorset'
       ],
       benefits: [
         'Faster application than traditional plastering on large areas',
-        'Consistent, smooth finish',
-        'Shorter drying times in many cases',
-        'Ready for decorating once fully dry'
+        'Consistent, smooth spray finish plaster throughout',
+        'Shorter drying times compared to hand plastering',
+        'Ready for decorating once fully dry',
+        'Professional spray plastering contractors with {businessInfo.experience} experience',
+        'Suitable for both domestic and commercial spray plastering projects in Poole'
       ]
     },
     'painting-decorating': {
-      title: 'Interior Painting and Decorating',
-      intro: 'Once plastering is complete, we can carry the job through to final decoration, giving you a single point of contact from structure to finished room.',
+      title: 'Painters and Decorators in Poole & Dorset',
+      intro: 'Professional painters and decorators serving Poole, Bournemouth, Christchurch and throughout Dorset. Once plastering is complete, we provide complete painting and decorating services, giving you a single point of contact from structure to finished room. Our experienced painters offer interior painting for residential, commercial and new build projects across Poole and Dorset.',
       whatWeProvide: [
-        'Mist coats on new plaster',
-        'Emulsion to walls and ceilings',
-        'Woodwork painting, including doors, frames and skirting',
-        'Feature walls and colour changes'
+        'Professional mist coats on new plaster',
+        'Quality emulsion application to walls and ceilings',
+        'Woodwork painting including doors, frames and skirting boards',
+        'Feature walls and custom colour schemes',
+        'Commercial painting for offices, retail and hospitality venues',
+        'Residential painting and decorating for homes across Poole & Dorset'
       ],
       benefits: [
-        'Trade quality paints and materials',
-        'Professional finish that lasts',
-        'Complete project management from plaster to paint',
-        'Thorough preparation for superior results'
+        'Trade quality paints and professional materials',
+        'Durable, long-lasting finish by experienced painters',
+        'Complete project management from plastering to final decoration',
+        'Thorough preparation for superior, professional results',
+        'Trusted painters and decorators in Poole with {businessInfo.experience} experience',
+        'Fully insured painting contractors serving Dorset'
       ]
     }
   };
