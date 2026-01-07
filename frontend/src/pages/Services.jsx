@@ -14,10 +14,10 @@ const Services = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
             <h1 className="text-4xl sm:text-5xl font-bold mb-6">
-              Plastering, Ceilings and Decorating Services
+              Professional Plastering & Decorating Services in Poole & Dorset
             </h1>
             <p className="text-xl text-slate-200">
-              We provide a complete internal finishing service that brings walls and ceilings from bare structure through to fully decorated.
+              Complete interior finishing services from expert plasterers and painters serving Poole, Bournemouth, Christchurch and across Dorset. Specialists in spray plastering, MF ceilings, dry lining and professional painting.
             </p>
           </div>
         </div>
