@@ -15,7 +15,7 @@ const ServiceDetail = () => {
   const serviceDetails = {
     'mf-ceilings': {
       title: 'MF Ceiling Contractors in Poole & Dorset',
-      intro: 'Professional MF ceiling installers serving Poole, Bournemouth, and across Dorset. MF (metal frame) ceilings are ideal for creating level, modern ceilings and concealing services such as pipes, ductwork and cabling. Dorset Spray Plastering & Painting supply and install MF ceiling systems for domestic and commercial projects throughout Poole, Bournemouth, Christchurch, and Dorset.',
+      intro: 'Professional MF ceiling installers serving Poole, Bournemouth, and across Dorset. MF (metal frame) ceilings are ideal for creating level, modern ceilings and concealing services such as pipes, ductwork and cabling. We supply and install MF ceiling systems for domestic and commercial projects throughout Poole, Bournemouth, Christchurch, and Dorset.',
       whatWeProvide: [
         'Complete MF ceiling frameworks and suspended ceiling systems',
         'Bulkheads, feature ceilings, and decorative ceiling designs',
@@ -29,64 +29,70 @@ const ServiceDetail = () => {
         'Space to run services and building infrastructure',
         'Excellent acoustic and fire performance when specified correctly',
         'Suitable for new builds, refurbishments, office fit outs and commercial projects',
-        'Fast installation by experienced MF ceiling contractors',
+        'Fast installation by qualified contractors',
         'Fully insured MF ceiling specialists in Poole and Dorset'
       ]
     },
     'dry-lining': {
-      title: 'Dry Lining Services in Dorset',
-      intro: 'We provide dry lining for walls and ceilings, creating smooth surfaces ready for plastering and decorating.',
+      title: 'Dry Lining Services in Poole & Dorset',
+      intro: 'We provide professional dry lining for walls and ceilings across Poole, Bournemouth and Dorset, creating smooth surfaces ready for plastering and decorating.',
       whatWeProvide: [
-        'Dry lining to timber or metal stud',
-        'Insulated plasterboard where required',
-        'Partition walls and room layouts',
-        'Taping, jointing and preparation for finishing'
+        'Dry lining to timber or metal stud frameworks',
+        'Insulated plasterboard for improved thermal performance',
+        'Partition walls and room layouts for space division',
+        'Taping, jointing and preparation for final finishing',
+        'Soundproofing solutions for residential and commercial spaces',
+        'Fire-rated plasterboard installation where required'
       ],
       benefits: [
-        'Accurate setting out and fixing',
+        'Accurate setting out and professional fixing',
         'Clean joints ready for spray plaster or paint',
+        'Improved insulation and energy efficiency',
+        'Fast installation for quick project turnaround',
         'Coordination with other trades on site',
-        'Fast installation for quick project turnaround'
+        'Suitable for new builds, extensions and refurbishments'
       ]
     },
     'spray-plastering': {
       title: 'Spray Plastering Contractors in Poole & Dorset',
-      intro: 'Professional spray plastering services in Poole, Bournemouth and throughout Dorset. Spray plastering (also known as machine plastering) is a fast, efficient method to achieve consistent, high-quality finishes on large areas of walls and ceilings. Our spray plasterers are ideal for new builds, refurbishments and commercial spaces in Poole and Dorset where speed and quality are both essential.',
+      intro: 'Professional spray plastering services in Poole, Bournemouth and throughout Dorset. Spray plastering (also known as machine plastering) is a fast, efficient method to achieve consistent, high-quality finishes on large areas of walls and ceilings. Ideal for new builds, refurbishments and commercial spaces in Poole and Dorset where speed and quality are essential.',
       whatWeProvide: [
-        'Airless spray plastering application by qualified spray plasterers',
+        'Airless spray plastering application using professional equipment',
         'Machine mixed plaster for consistent quality and finish',
         'Professional hand finishing for clean edges and corners',
         'Thorough preparation and protection of surfaces and floors',
         'Commercial spray plastering for offices, retail and hospitality',
-        'Residential spray plastering for new builds and renovations in Poole & Dorset'
+        'Residential spray plastering for new builds and renovations in Poole & Dorset',
+        'Skim coats and multi-finish applications'
       ],
       benefits: [
-        'Faster application than traditional plastering on large areas',
+        'Faster application than traditional hand plastering on large areas',
         'Consistent, smooth spray finish plaster throughout',
-        'Shorter drying times compared to hand plastering',
-        'Ready for decorating once fully dry',
-        'Professional spray plastering contractors with {businessInfo.experience} experience',
-        'Suitable for both domestic and commercial spray plastering projects in Poole'
+        'Reduced project timelines for time-sensitive builds',
+        'Professional finish ready for decorating once dry',
+        'Cost-effective for medium to large scale projects',
+        'Minimal waste compared to traditional methods'
       ]
     },
     'painting-decorating': {
       title: 'Painters and Decorators in Poole & Dorset',
-      intro: 'Professional painters and decorators serving Poole, Bournemouth, Christchurch and throughout Dorset. Once plastering is complete, we provide complete painting and decorating services, giving you a single point of contact from structure to finished room. Our experienced painters offer interior painting for residential, commercial and new build projects across Poole and Dorset.',
+      intro: 'Professional painters and decorators serving Poole, Bournemouth, Christchurch and throughout Dorset. We provide complete painting and decorating services for interior spaces, giving you a single point of contact from plastering through to final decoration. Our painting services cover residential, commercial and new build projects across Poole and Dorset.',
       whatWeProvide: [
-        'Professional mist coats on new plaster',
+        'Professional mist coats on new plaster for proper sealing',
         'Quality emulsion application to walls and ceilings',
         'Woodwork painting including doors, frames and skirting boards',
         'Feature walls and custom colour schemes',
         'Commercial painting for offices, retail and hospitality venues',
-        'Residential painting and decorating for homes across Poole & Dorset'
+        'Residential painting and decorating for homes across Poole & Dorset',
+        'Preparation work including filling, sanding and priming'
       ],
       benefits: [
-        'Trade quality paints and professional materials',
-        'Durable, long-lasting finish by experienced painters',
+        'Trade quality paints and professional materials used throughout',
+        'Durable, long-lasting finish for walls and woodwork',
         'Complete project management from plastering to final decoration',
         'Thorough preparation for superior, professional results',
-        'Trusted painters and decorators in Poole with {businessInfo.experience} experience',
-        'Fully insured painting contractors serving Dorset'
+        'Clean, tidy working practices with floor and furniture protection',
+        'Single contractor for plastering and decorating saves time and hassle'
       ]
     }
   };
@@ -127,7 +133,7 @@ const ServiceDetail = () => {
                 {details.intro}
               </p>
               <p className="text-lg text-slate-600">
-                With {businessInfo.experience} of experience, we deliver professional results that meet the highest standards of workmanship.
+                We deliver professional results that meet the highest standards of workmanship across Poole, Bournemouth and throughout Dorset.
               </p>
             </div>
           </div>
