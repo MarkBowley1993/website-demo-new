@@ -25,19 +25,10 @@ const Header = () => {
 
   return (
     <header className="bg-white shadow-sm sticky top-0 z-50">
-      {/* Top bar with contact info - removed email */}
-      <div className="bg-[#3a4450] text-white py-0.5">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-end items-center text-xs">
-            <span className="text-slate-300">Professional Plasterers in Poole & Dorset</span>
-          </div>
-        </div>
-      </div>
-
       {/* Main navigation */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center" style={{ minHeight: '70px' }}>
-          <Link to="/" className="flex items-center" style={{ margin: '-20px 0' }}>
+        <div className="flex justify-between items-center" style={{ minHeight: '60px', padding: '0' }}>
+          <Link to="/" className="flex items-center" style={{ margin: '-25px 0' }}>
             <img 
               src="https://customer-assets.emergentagent.com/job_88d0e87c-203a-489e-a732-0f3b5ef378f7/artifacts/xsgun7uy_2025-03-08-removebg-preview.png" 
               alt="Dorset Spray Plastering & Painting"
@@ -47,7 +38,7 @@ const Header = () => {
                 maxWidth: '250px', 
                 maxHeight: '250px',
                 transform: 'scale(1.3)',
-                margin: '-35px 0'
+                margin: '-40px 0'
               }}
             />
           </Link>
