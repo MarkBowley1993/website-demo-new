@@ -21,10 +21,10 @@ const Home = () => {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 sm:py-32">
           <div className="max-w-3xl">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              Professional Spray Plastering, MF Ceilings & Painting Contractors in Dorset
+              Professional Plasterers in Poole & Dorset | Spray Plastering, MF Ceilings & Painting Contractors
             </h1>
             <p className="text-xl sm:text-2xl text-slate-200 mb-8">
-              Professional internal finishes for homes, landlords and commercial projects, backed by {businessInfo.experience} of experience.
+              Expert plastering services in Poole, Bournemouth, and across Dorset. Specialists in spray plastering, MF ceilings, dry lining, and interior painting with {businessInfo.experience} of experience.
             </p>
             <ul className="space-y-3 mb-10 text-lg">
               <li className="flex items-start gap-3">
@@ -64,13 +64,13 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-6">
-              Reliable Plastering and Decorating Across Dorset
+              Trusted Plastering Contractors in Poole, Bournemouth & Dorset
             </h2>
             <p className="text-lg text-slate-600 mb-6">
-              Dorset Spray Plastering & Painting delivers high quality internal finishes for homeowners, landlords, builders and commercial clients. With {businessInfo.experience} of hands-on experience, we provide a complete service from MF ceilings and dry lining through to spray plastering and final painting.
+              Dorset Spray Plastering & Painting are professional plasterers serving Poole, Bournemouth, Christchurch, Wimborne, Wareham, Ferndown and throughout Dorset. With {businessInfo.experience} of hands-on experience, we provide complete <Link to="/services" className="text-blue-600 hover:text-blue-700 underline">plastering and decorating services</Link> from <Link to="/services/mf-ceilings" className="text-blue-600 hover:text-blue-700 underline">MF ceilings</Link> and <Link to="/services/dry-lining" className="text-blue-600 hover:text-blue-700 underline">dry lining</Link> through to <Link to="/services/spray-plastering" className="text-blue-600 hover:text-blue-700 underline">spray plastering</Link> and final <Link to="/services/painting-decorating" className="text-blue-600 hover:text-blue-700 underline">painting and decorating</Link>.
             </p>
             <p className="text-lg text-slate-600">
-              Whether you need a single room refreshed or a full property fit out, we focus on clean workmanship, clear communication and turning up when we say we will.
+              Whether you need plasterers for a single room or complete property finishing contractors for residential, commercial, or new build projects in Poole and Dorset, we focus on reliable workmanship, clear communication and delivering on time.
             </p>
           </div>
         </div>
@@ -81,10 +81,10 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
-              Our Core Services
+              Professional Plastering & Decorating Services in Poole & Dorset
             </h2>
             <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-              Complete internal finishing services from structure to decoration
+              Complete interior finishing services for residential, commercial and new build projects across Poole, Bournemouth and Dorset
             </p>
           </div>
 
