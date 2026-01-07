@@ -2,10 +2,17 @@
 
 export const businessInfo = {
   name: "Dorset Spray Plastering & Painting",
+  contactName: "Mark",
   phone: "07983 643278",
   email: "info@dorsetsprayplastering.com",
   experience: "24 years",
-  location: "Dorset"
+  location: "Dorset",
+  social: {
+    facebook: "https://www.facebook.com/dorsetsprayplastering",
+    instagram: "https://www.instagram.com/dorset_spray_plastering/",
+    yell: "https://www.yell.com/biz/dorset-spray-plastering-and-painting-contractors-poole-7377285/",
+    whatsapp: "447983643278" // Format for WhatsApp: country code without + and no spaces
+  }
 };
 
 export const services = [
