@@ -73,43 +73,43 @@ export const testimonials = [
 export const galleryImages = [
   {
     id: 1,
-    url: "https://www.instagram.com/p/DPmR0fFjIQ4/media/?size=l",
+    embedUrl: "https://www.instagram.com/p/DPmR0fFjIQ4/embed",
     instagramUrl: "https://www.instagram.com/p/DPmR0fFjIQ4/",
-    caption: "Professional plastering project"
+    caption: "Professional plastering project in Poole"
   },
   {
     id: 2,
-    url: "https://www.instagram.com/p/C0ZvRygIBYa/media/?size=l",
+    embedUrl: "https://www.instagram.com/p/C0ZvRygIBYa/embed",
     instagramUrl: "https://www.instagram.com/p/C0ZvRygIBYa/",
-    caption: "MF ceiling installation"
+    caption: "MF ceiling installation in Dorset"
   },
   {
     id: 3,
-    url: "https://www.instagram.com/p/CnSjEoRoemA/media/?size=l",
+    embedUrl: "https://www.instagram.com/p/CnSjEoRoemA/embed",
     instagramUrl: "https://www.instagram.com/p/CnSjEoRoemA/",
-    caption: "Spray plastering work"
+    caption: "Spray plastering work in Bournemouth"
   },
   {
     id: 4,
-    url: "https://www.instagram.com/p/CXRijcqIYu6/media/?size=l",
+    embedUrl: "https://www.instagram.com/p/CXRijcqIYu6/embed",
     instagramUrl: "https://www.instagram.com/p/CXRijcqIYu6/",
     caption: "Quality finishing work"
   },
   {
     id: 5,
-    url: "https://www.instagram.com/p/CAnFpA7Bn0G/media/?size=l",
+    embedUrl: "https://www.instagram.com/p/CAnFpA7Bn0G/embed",
     instagramUrl: "https://www.instagram.com/p/CAnFpA7Bn0G/",
-    caption: "Commercial project"
+    caption: "Commercial project in Poole"
   },
   {
     id: 6,
-    url: "https://www.instagram.com/p/B2brfcjBoYg/media/?size=l",
+    embedUrl: "https://www.instagram.com/p/B2brfcjBoYg/embed",
     instagramUrl: "https://www.instagram.com/p/B2brfcjBoYg/",
-    caption: "Completed ceiling work"
+    caption: "Completed ceiling work in Dorset"
   },
   {
     id: 7,
-    url: "https://www.instagram.com/p/B09OT-8n-Wd/media/?size=l",
+    embedUrl: "https://www.instagram.com/p/B09OT-8n-Wd/embed",
     instagramUrl: "https://www.instagram.com/p/B09OT-8n-Wd/",
     caption: "Professional plastering"
   }

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '../components/ui/button';
 import { Card } from '../components/ui/card';
@@ -6,8 +6,6 @@ import { Phone, Mail, ExternalLink } from 'lucide-react';
 import { businessInfo, galleryImages } from '../data/mock';
 
 const Gallery = () => {
-  const [selectedImage, setSelectedImage] = useState(null);
-
   return (
     <div>
       {/* Hero Section */}
@@ -37,22 +35,24 @@ const Gallery = () => {
             {galleryImages.map((image) => (
               <Card
                 key={image.id}
-                className="overflow-hidden hover:shadow-xl transition-shadow group cursor-pointer"
-                onClick={() => setSelectedImage(image)}
+                className="overflow-hidden hover:shadow-xl transition-shadow"
               >
-                <div className="aspect-square overflow-hidden relative">
-                  <img
-                    src={image.url}
-                    alt={image.caption}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                    onError={(e) => {
-                      e.target.src = 'https://via.placeholder.com/600x600/3a4450/ffffff?text=View+on+Instagram';
-                    }}
+                <a
+                  href={image.instagramUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block aspect-square overflow-hidden relative group"
+                >
+                  <iframe
+                    src={image.embedUrl}
+                    className="w-full h-full border-0"
+                    scrolling="no"
+                    title={image.caption}
                   />
-                  <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-opacity flex items-center justify-center">
+                  <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-10 transition-opacity flex items-center justify-center pointer-events-none">
                     <ExternalLink className="text-white opacity-0 group-hover:opacity-100 transition-opacity" size={32} />
                   </div>
-                </div>
+                </a>
               </Card>
             ))}
           </div>
