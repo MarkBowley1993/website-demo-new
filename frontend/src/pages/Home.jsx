@@ -224,6 +224,53 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Areas We Cover */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-slate-900 text-center mb-8">
+            Plasterers Serving Poole, Bournemouth & Across Dorset
+          </h2>
+          <p className="text-lg text-slate-600 text-center max-w-3xl mx-auto mb-8">
+            As experienced plasterers based in Dorset, we provide professional plastering, spray plastering, MF ceiling installation, and painting services throughout the region.
+          </p>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 max-w-4xl mx-auto">
+            <div className="text-center p-4 bg-slate-50 rounded-lg">
+              <p className="font-semibold text-slate-900">Poole</p>
+            </div>
+            <div className="text-center p-4 bg-slate-50 rounded-lg">
+              <p className="font-semibold text-slate-900">Bournemouth</p>
+            </div>
+            <div className="text-center p-4 bg-slate-50 rounded-lg">
+              <p className="font-semibold text-slate-900">Christchurch</p>
+            </div>
+            <div className="text-center p-4 bg-slate-50 rounded-lg">
+              <p className="font-semibold text-slate-900">Wimborne</p>
+            </div>
+            <div className="text-center p-4 bg-slate-50 rounded-lg">
+              <p className="font-semibold text-slate-900">Wareham</p>
+            </div>
+            <div className="text-center p-4 bg-slate-50 rounded-lg">
+              <p className="font-semibold text-slate-900">Ferndown</p>
+            </div>
+            <div className="text-center p-4 bg-slate-50 rounded-lg">
+              <p className="font-semibold text-slate-900">Dorchester</p>
+            </div>
+            <div className="text-center p-4 bg-slate-50 rounded-lg">
+              <p className="font-semibold text-slate-900">Swanage</p>
+            </div>
+            <div className="text-center p-4 bg-slate-50 rounded-lg">
+              <p className="font-semibold text-slate-900">Blandford</p>
+            </div>
+            <div className="text-center p-4 bg-slate-50 rounded-lg">
+              <p className="font-semibold text-slate-900">Across Dorset</p>
+            </div>
+          </div>
+          <p className="text-center text-slate-600 mt-8">
+            Looking for <strong>plasterers near me in Poole</strong> or <strong>painters and decorators in Dorset</strong>? <Link to="/contact" className="text-blue-600 hover:text-blue-700 underline">Contact us</Link> to discuss your project.
+          </p>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-16 bg-blue-600 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
