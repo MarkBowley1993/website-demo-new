@@ -12,10 +12,10 @@ const About = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
             <h1 className="text-4xl sm:text-5xl font-bold mb-6">
-              About Dorset Spray Plastering & Painting
+              About Our Plastering Company in Poole & Dorset
             </h1>
             <p className="text-xl text-slate-200">
-              Professional internal finishing services backed by {businessInfo.experience} of trade experience
+              Experienced plasterers and painters serving Poole, Bournemouth and across Dorset with {businessInfo.experience} of professional trade experience
             </p>
           </div>
         </div>
@@ -41,22 +41,22 @@ const About = () => {
             <div>
               <h2 className="text-3xl font-bold text-slate-900 mb-6">Who We Are</h2>
               <p className="text-lg text-slate-600 mb-4">
-                Dorset Spray Plastering & Painting provides specialist MF ceilings, dry lining, spray plastering and decorating services with over {businessInfo.experience} of experience in the trade. We support homeowners, landlords, builders and commercial clients who want reliable workmanship and a high standard of finish.
+                Dorset Spray Plastering & Painting are professional plasterers and painting contractors with over {businessInfo.experience} of experience serving Poole, Bournemouth, Christchurch, Wimborne, and throughout Dorset. We provide specialist <Link to="/services/mf-ceilings" className="text-blue-600 hover:text-blue-700 underline">MF ceilings</Link>, <Link to="/services/dry-lining" className="text-blue-600 hover:text-blue-700 underline">dry lining</Link>, <Link to="/services/spray-plastering" className="text-blue-600 hover:text-blue-700 underline">spray plastering</Link> and <Link to="/services/painting-decorating" className="text-blue-600 hover:text-blue-700 underline">decorating services</Link> for homeowners, landlords, builders and commercial clients who want reliable workmanship and high quality finishes.
               </p>
               <p className="text-lg text-slate-600">
-                Operating across {businessInfo.location}, we have built our reputation on delivering quality finishes, maintaining clear communication throughout projects, and ensuring every job is completed to the highest standards.
+                As trusted plastering contractors in Poole and Dorset, we have built our reputation on delivering professional results, maintaining clear communication throughout projects, and ensuring every job is completed to the highest standards. Whether you're searching for plasterers near me in Poole, spray plasterers in Bournemouth, or painters and decorators across Dorset, we provide complete interior finishing solutions.
               </p>
             </div>
           </div>
 
           {/* Our Experience */}
           <div className="bg-slate-50 rounded-lg p-8 mb-16">
-            <h2 className="text-3xl font-bold text-slate-900 mb-6">Our Experience</h2>
+            <h2 className="text-3xl font-bold text-slate-900 mb-6">Our Experience as Plasterers in Poole & Dorset</h2>
             <p className="text-lg text-slate-600 mb-4">
-              Across two decades we have worked on everything from small domestic rooms to full property refurbishments and commercial fit outs. That experience means we can advise on the right systems and finishes for your project, coordinate with other trades and keep disruption to a minimum.
+              Over two decades, we have established ourselves as reliable plasterers and painting contractors in Poole, Bournemouth and across Dorset. Our experience spans small domestic rooms to full property refurbishments and commercial fit outs. This extensive experience as professional plasterers means we can advise on the right systems and finishes for your project, coordinate with other trades, and deliver high-end finishing with minimal disruption.
             </p>
             <p className="text-lg text-slate-600">
-              Our portfolio includes work for private homeowners, property developers, landlords managing multiple properties, and commercial businesses requiring professional fit-outs. We understand the unique requirements of each sector and tailor our approach accordingly.
+              Our portfolio includes residential plastering for private homeowners in Poole and Bournemouth, commercial plastering for property developers and businesses, work for landlords managing multiple properties across Dorset, and new build plastering for construction projects. As experienced plastering specialists in Dorset, we understand the unique requirements of each sector and tailor our approach accordingly.
             </p>
           </div>
 
